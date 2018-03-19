@@ -14,7 +14,9 @@ type Res struct {
 	Score float32        `json:"score"`
 }
 
-// Guest 人脸1比1
+/**
+ * 1-1
+ */
 func Guest(c *gin.Context) {
 
 	memberID := c.PostForm("member_id")
