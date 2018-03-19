@@ -20,8 +20,7 @@ type Per struct {
 type Men struct {
 	Per []Per
 }
-
-//Accuracy 人脸1比n
+//1-n
 func Accuracy(c *gin.Context) {
 	devCode := c.PostForm("dev_code")
 	ctype := c.DefaultPostForm("ctype", "0")
